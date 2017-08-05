@@ -1,6 +1,6 @@
 # Insight UI
 
-A Bitcoin blockchain explorer web application service for [ioncore Node](https://github.com/rdewilde/ioncore-node) using the [Insight API](https://github.com/rdewilde/insight-api).
+A Bitcoin blockchain explorer web application service for [ioncore Node](https://github.com/rdewilde/ioncore-node) using the [Insight API](https://github.com/rdewilde/ion-insight-api).
 
 ## Quick Start
 
@@ -14,8 +14,8 @@ To manually install all of the necessary components, you can run these commands:
 npm install -g ioncore-node
 ioncore-node create mynode
 cd mynode
-ioncore-node install insight-api
-ioncore-node install insight-ui
+ioncore-node install ion-insight-api
+ioncore-node install ion-insight-ui
 ioncore-node start
 ```
 
@@ -23,7 +23,6 @@ Open a web browser to `http://localhost:3001/insight/`
 
 ## Development
 
-To build Insight UI locally:
 
 ```
 $ npm run build
@@ -41,7 +40,7 @@ By default, the `insightConfig` in `package.json` is:
 
 ```json
   "insightConfig": {
-    "apiPrefix": "insight-api",
+    "apiPrefix": "ion-insight-api",
     "routePrefix": "insight"
   }
 ```
@@ -55,7 +54,7 @@ To change these routes, first make your changes to `package.json`, for example:
   }
 ```
 
-Then rebuild the `insight-ui` service:
+Then rebuild the `ion-insight-ui` service:
 
 ```
 $ npm run build
@@ -88,11 +87,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/rdewilde/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/rdewilde/insight-api).
+For more details about the [Insight API](https://github.com/rdewilde/ion-insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/rdewilde/ion-insight-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/rdewilde/insight-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/rdewilde/ion-insight-ui).
 
 
 ## License
